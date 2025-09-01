@@ -1,0 +1,35 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# 윈도우 시스템 파일
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 윈도우 임시 파일
+*.tmp
+*.temp
+*.log
+
+# 휴지통
+*.bak
+*.swp
+
+# Microsoft Office 임시 파일
+~$*
+
+# 파일 이름에 충돌 생기는 경우 (예: 파일명 끝에 공백)
+Icon?
+
+# IntelliJ
+.idea/
+*.iml
+out/
