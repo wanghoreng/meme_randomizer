@@ -1,8 +1,9 @@
 spring:
   datasource:
+#    url: jdbc:postgresql://localhost:5432/meme
     url: ${DB_URL}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+    username: postgres
+    password: postgres
   jpa :
     show-sql: true
     hibernate:
