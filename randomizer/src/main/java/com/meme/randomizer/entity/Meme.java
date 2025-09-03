@@ -21,12 +21,15 @@ public class Meme {
     @Column(name = "image_url", nullable = false, length = 255)
     private String imageUrl;
 
+    @Builder.Default
     @Column(name = "like_count", nullable = false)
     private int likeCount = 0;
 
+    @Builder.Default
     @Column(name = "view_count", nullable = false)
     private int viewCount = 0;
 
+    @Builder.Default
     @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt = LocalDateTime.now();
 }
